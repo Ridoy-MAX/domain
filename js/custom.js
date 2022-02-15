@@ -1,6 +1,19 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*===== EXPANDER MENU  =====*/ 
 const showMenu = (toggleId, navId)=>{
   const toggle = document.getElementById(toggleId),
@@ -107,7 +120,7 @@ $('.banner-slider2').slick({
 // 1. preloader
 
 $(window).ready(function () {
-  $('#preloader').delay(200).fadeOut('fade');
+  $('#preloader').delay(500).fadeOut('fade');
 });
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader(){
@@ -128,3 +141,67 @@ window.addEventListener('scroll', scrollUp)
 /*==================== SHOW SCROLL UP ====================*/ 
 
 
+
+
+
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){ 
+
+
+
+
+
+  const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    reset: true
+  })
+  
+  sr.reveal(`. `,{delay: 400})
+  sr.reveal(`.quality`,{delay: 300})
+  sr.reveal(``,{delay: 400, origin: 'top'})
+  
+  sr.reveal(``,{origin: 'top', interval: 50})
+  sr.reveal(``,{origin: 'left', interval: 50})
+  
+  sr.reveal(``,{origin: 'top',delay: 100})
+  sr.reveal(`.moson-img`,{origin: 'top',delay: 100})
+  sr.reveal(`.moson-img1`,{origin: 'top',delay: 300})
+  sr.reveal(`.moson-img2`,{origin: 'top',delay: 500})
+  sr.reveal(`.moson`,{origin: 'bottom',delay: 100})
+  sr.reveal(`.moson1`,{origin: 'bottom',delay: 300})
+  sr.reveal(`.moson2`,{origin: 'bottom',delay: 500})
+  sr.reveal(`.moson3`,{origin: 'bottom',delay: 700})
+  sr.reveal(`.moson4`,{origin: 'bottom',delay: 900})
+  sr.reveal(`.moson5`,{origin: 'bottom',delay: 1100})
+ 
+  
+
+
+
+
+
+
+
+
+
+  
+});  

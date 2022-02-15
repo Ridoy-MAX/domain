@@ -801,10 +801,15 @@ body {
 /*==========
 variable css end
 ==============*/
+#preloader {
+  background-color: azure !important;
+  z-index: 9999999999 99999999999999;
+}
 #preloader .preloader-wrap {
   position: absolute;
-  left: 40%;
+  left: 45%;
   top: 40%;
+  z-index: 9999999999 99999999999999;
 }
 
 .show-scroll {
@@ -1273,7 +1278,7 @@ input.search-submit {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  box-shadow: rgba(109, 112, 114, 0.459) 0px 0px 1px;
+  box-shadow: rgba(82, 82, 82, 0.815) 0px 0px 1px;
   border: 1px;
   transition: 00.4s;
   cursor: pointer;
@@ -1617,6 +1622,25 @@ footer end
 /*==========
 extra css=========================================================================================================
 ==============*/
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #f3f3f3 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing-plan h3 {
+  background-color: transparent;
+  color: #343434;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+  letter-spacing: normal !important;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: fantasy;
+  text-align: center;
+}
+
 #client {
   margin-top: 100px;
   margin-bottom: 100px;
