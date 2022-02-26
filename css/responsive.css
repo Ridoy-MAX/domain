@@ -244,6 +244,44 @@ ul {
 
 
 @media (max-width: 575px){
+    #header-top-bar .container .list-item .list-inline-item .btn-group .dropdown-menu .btn {
+        color: #fff0f0;
+    }
+    .scroll-header {
+        height: 71px;
+    }
+    .scroll-header {
+        background-color: white;
+        box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+        width: 100%;
+        position: fixed;
+        top: -3px;
+        z-index: 9999999999999;
+        align-items: center;
+    }
+    #menu .navbar .navbar-brand {
+        padding-top: 4px !important;
+        padding-bottom: 0.313rem;
+        margin-right: 6rem !important;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    .bx {
+        font-family: 'boxicons' !important;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        /* line-height: 3; */
+        display: inline-block;
+        text-transform: none;
+        speak: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 35px;
+        align-items: center;
+        margin-right: 20px;
+    }
     .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
         color: rgba(255, 255, 255, 0.7);
         font-size: 18px;
