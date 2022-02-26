@@ -34,6 +34,10 @@ variable css end
 responsive NAV bar 
 ==================
 ========================*/
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+	color: rgba(255, 255, 255, 0.9);
+}
 ul {
     margin: 0;
     padding: 0;
@@ -73,18 +77,18 @@ ul {
       margin-right: auto; } }
   @media screen and (max-width: 768px) {
     .nav {
-        z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 !important;
+        z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999 !important;
       position: fixed;
       top: 0;
       left: -100%;
-      background-color: #ffffff;
+      background-color: #1f1e1e;
       width: 80%;
       height: 100vh;
       padding: 2rem 0;
       z-index: var(--z-fixed);
       transition: .5s;
       overflow-y: auto;
-      color: rgb(2, 2, 2) !important; } }
+      color: rgb(255, 255, 255) !important; } }
   @media screen and (min-width: 768px) {
     body {
       margin: 0; }
@@ -240,6 +244,56 @@ ul {
 
 
 @media (max-width: 575px){
+    .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 18px;
+        font-weight: 400;
+        font-family: var(--ff1);
+    }
+    .dropdown-menu.show {
+        display: block;
+        margin-top: -12px !important;
+        transition: 0.4s !important;
+        background-color: #1f1e1e;
+        border: none;
+        color: white;
+    }
+    .header .dropdown-item {
+        display: block;
+        width: 100%;
+        padding: 8px 0px !important;
+        clear: both;
+        font-weight: 500;
+        color: rgb(255, 255, 255) !important;
+        text-align: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+        font-size: 16px !important;
+        padding-bottom: 0px 20px !important;
+     
+    }
+    .header .dropdown-item i{
+        color: rgb(199, 44, 46);
+        font-size: 10px;
+    }
+    #menu .navbar .navbar-brand {
+        padding-top: 28px;
+        padding-bottom: 0.313rem;
+        margin-right: 9rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    .header .header__toggle {
+        font-size: 30px;
+        cursor: pointer;
+        padding-right: 20px;
+        position: absolute;
+        margin-bottom: 46px;
+        right: 0;
+    }
     #flexible-plan .pricing-btn {
         align-items: center;
         justify-content: center;

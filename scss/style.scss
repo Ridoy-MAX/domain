@@ -24,8 +24,9 @@
 variable css start
 ==============*/
 :root {
-    --ff1: 'Open Sans', sans-serif;
+    --ff1: 'Rubik', sans-serif;
     --ff2: 'Raleway', sans-serif; 
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -174,6 +175,28 @@ background-color: rgba(224, 36, 36, 0.849);
                 }
             }
             .list-inline-item{
+                .btn-group{
+                      .show {
+                            display: block;
+                            margin-top: 0px !important;
+                            transition: 0.4s !important;
+                        }
+                    .dropdown-menu{
+                        min-width: 5rem;
+                      
+                        .btn{
+                            color: rgb(0, 0, 0);
+                        }
+                    }
+                    .btn{
+                        display: flex;
+                        align-items: center;
+                        color: white;
+                        img{
+
+                        }
+                    }
+                }
 
             }
         }
@@ -273,8 +296,8 @@ background-color: rgba(224, 36, 36, 0.849);
     position: fixed;
     top: -20px;
     z-index: 9999999999999;
-    height: 80px;
-    margin-top: 20px;
+   
+   
     align-items: center;
   }
   .dropdown-item{
@@ -305,6 +328,17 @@ background-color: rgba(224, 36, 36, 0.849);
   
       .navbar{
           .navbar-brand{
+
+          
+                padding-top: 0;
+                padding-bottom: 0.3125rem;
+                margin-right: 9rem;
+                font-size: 1.25rem;
+                text-decoration: none;
+                white-space: nowrap;
+          
+
+
             img{
                 width: 200px !important;
             }
@@ -312,7 +346,7 @@ background-color: rgba(224, 36, 36, 0.849);
           .collapse{
               .navbar-nav {
                   li{
-                      line-height: 4;
+                      line-height: 3;
                       position: relative;
                     &:hover{
                         .dropdown-it{
@@ -366,6 +400,12 @@ background-color: rgba(224, 36, 36, 0.849);
                                        border-radius: 80px;
                                        padding-left: 10px;
                                    }
+                                   i{
+                                    font-size: 20px;
+                                    padding: 15px;
+                                    color: #000;
+
+                                }
 
                                }
                                .function{
@@ -397,11 +437,12 @@ background-color: rgba(224, 36, 36, 0.849);
                                padding: 0px 0px;
                                &:hover{
                                    background-color: rgba(173, 173, 173, 0.247) !important;
-                                   color: rgba(255, 255, 255, 0.986);
+                                   color: rgba(0, 0, 0, 0.986);
                                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                                }
                                a{
                                    padding: 0px 100px;
+                                  
                                    p{
                                        margin-bottom: 0;
                                        font-family: fantasy;
@@ -445,7 +486,7 @@ background-color: rgba(224, 36, 36, 0.849);
                         font-size: 16px;
                         color: rgb(0, 0, 0);
                         font-family: var(--ff1);
-                       font-weight: 400;
+                       font-weight: 500;
                        transition: 0.4s;
                        margin-left: 10px;
                         &:hover{
@@ -454,8 +495,9 @@ background-color: rgba(224, 36, 36, 0.849);
                       
                       }
                       .item{
-                        width: 120px;
-                        height: 40px;
+                          margin-left: 50px !important;
+                        width: 80px;
+                        height: 30px;
                         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                         border-radius: 20px;
                         margin-left: 5px;
@@ -464,7 +506,7 @@ background-color: rgba(224, 36, 36, 0.849);
                         color: white;
                         transition: 0.6s;
                         padding: 0px 5px;
-                        font-size: 13px;
+                        font-size: 12px;
                         font-family: var(--ff1);
                         display: flex;
                         align-items: center;
@@ -1023,6 +1065,103 @@ testimonial start
 /*==========
 footer start
 ==============*/  
+.footer-end {
+    .footer-img{
+
+        margin-left: 0px;
+        width: 70%;
+        
+        }
+        small{
+            font-size: 10px;
+            color: rgba(199, 199, 199, 0.809);
+            font-family: var(--ff1);
+        }
+}
+
+
+
+
+
+
+
+
+
+.footer-1  .moson {
+    h4{
+        font-size: 12px !important;
+        margin-bottom: 30px;
+        font-family: var(--ff1);
+        font-weight: 500 !important;
+        i{
+            font-size: 19px !important;
+            color: rgb(235, 183, 183) !important;
+        }
+   }
+
+   ul{
+    li{
+        margin-bottom: 3px;
+      i{
+          color:#fc5151;
+          font-size: 20px !important;
+       
+      }
+      a{
+        font-family: var(--ff1);
+        color: rgba(210, 210, 210, 0.797) !important;
+        font-size: 13px !important; 
+      }
+    }
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-1 .item .moson1 {
+    h4{
+        font-size: 24px !important;
+        margin-bottom: 30px;
+        font-family: var(--ff1);
+        font-weight: 500 !important;
+        i{
+            font-size: 19px !important;
+            color: rgb(188, 183, 235) !important;
+        }
+   }
+
+   ul{
+    li{
+        margin-bottom: 3px;
+      i{
+          color:#fc5151;
+          font-size: 10px !important;
+          margin-right: 5px;
+      }
+      a{
+        font-family: var(--ff1);
+        color: rgba(210, 210, 210, 0.797) !important;
+        font-size: 13px !important; 
+      }
+    }
+  }
+}
+  
+
 .footer-1 .container-fluid{
     height: 60px;
     background-color: var(--brand);
@@ -1032,16 +1171,17 @@ footer start
   .footer-1 {
       .container{
           p{
-            color: white;
-            font-size: 15px !important;
+            color: rgb(242, 241, 241) !important;
+            font-size: 13px !important;
             font-weight: 400;
             font-family: var(--ff1);
             margin-bottom: 10px;
+            padding: 2px 5px;
             line-height: 2;
           }
           .item{
               h4{
-                  font-size: 21px !important;
+                  font-size: 30px ;
                   font-family: var(--ff1);
                   font-weight: 600;
               }
@@ -1104,7 +1244,7 @@ footer start
      width: 100%;
      padding-top: 30px;
      padding-bottom: 27px;
-    background: #383838;
+    background: #000000;
     color: rgb(255, 255, 255);
  }
  .footer-1 ul{
@@ -1136,7 +1276,7 @@ footer start
     transition: 0.4s;
     text-align: center;
     &:hover{
-        background-color: red;
+        background-color: rgb(242, 229, 229);
     }
     a{
         height: 40px;
@@ -1165,11 +1305,11 @@ extra css=======================================================================
     background-color: transparent;
     color: #343434;
     font-size: 1.5rem !important;
-    font-weight: 500 !important;
+    font-weight: 700 !important;
     letter-spacing: normal !important;
     line-height: normal;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: var(--ff1);
     text-align: center;
 }
 

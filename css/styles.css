@@ -174,16 +174,14 @@ web-hosting nd
 /*==========
  Our flexibile plan  start
 ==============*/
-.pricing-plan h3 {
-  background-color: transparent;
-  color: #343434;
-  font-size: 1.4rem !important;
-  font-weight: 800 !important;
-  letter-spacing: normal !important;
-  line-height: normal;
-  text-transform: uppercase;
-  font-family: fantasy;
-  text-align: center;
+.border-bottom {
+  border-bottom: 0px !important;
+}
+
+#flexible-plan .price .show {
+  display: block;
+  margin-top: -32px !important;
+  transition: 0.4s !important;
 }
 
 .pricing-plan p {
@@ -205,7 +203,14 @@ web-hosting nd
   font-weight: 600;
   margin: 0 auto;
   padding-bottom: 10px !important;
-  text-align: center;
+  margin-left: 10px;
+  padding: 9px 33px !important;
+  border-bottom: 1px solid rgba(136, 133, 133, 0.227);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.pricing-plan-features ul li:hover {
+  background-color: rgba(237, 234, 233, 0.556);
 }
 .pricing-plan-features ul li span {
   font-weight: 700;
@@ -239,7 +244,11 @@ web-hosting nd
   justify-content: start;
   border: 1px solid rgba(255, 0, 0, 0.452);
   padding: 10px 30px;
-  border-radius: 0px;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+#flexible-plan .price .dropdown-menu .dropdown-item .offer-price:hover {
+  background-color: rgba(247, 244, 245, 0.755);
 }
 #flexible-plan .price .dropdown-menu .dropdown-item .offer-price h2 {
   color: #2e2e2e !important;
@@ -251,12 +260,13 @@ web-hosting nd
   float: left;
 }
 #flexible-plan .price .dropdown-menu .dropdown-item .offer-price h4 {
-  color: #2e2e2e !important;
-  font-size: 15px !important;
-  font-weight: 500;
+  color: #646464 !important;
+  font-size: 16px !important;
+  font-weight: 400;
   margin: 0 auto;
   padding-bottom: 10px !important;
   float: left;
+  font-family: var(--ff1);
 }
 #flexible-plan .price .dropdown-menu .dropdown-item .offer-price p {
   color: #2e2e2e !important;
@@ -268,32 +278,45 @@ web-hosting nd
   float: left;
 }
 #flexible-plan .price .dropdown-menu .dropdown-item .offer-price .offer {
-  width: 100px;
-  height: 30px;
-  background-color: #ff1d1d;
+  position: relative;
+  background-color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
 }
 #flexible-plan .price .dropdown-menu .dropdown-item .offer-price .offer h4 {
   color: #ffffff !important;
+  align-items: center;
+  padding: 7px 15px;
   font-size: 13px !important;
   font-weight: 600;
   margin: 0 auto;
   padding-bottom: 10px !important;
   font-family: var(--ff1);
   text-align: center !important;
-  margin-left: 22px;
+  margin-left: 47px;
+  margin-top: 0px;
+  width: 100px;
+  height: 30px;
+  background-color: #ee3838;
+  position: relative;
+}
+#flexible-plan .price .dropdown-menu .dropdown-item .offer-price .offer small {
+  color: #555555a4 !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-bottom: 10px !important;
+  font-family: var(--ff1);
+  text-align: center !important;
+  margin-left: 0px;
   margin-top: 10px;
 }
 #flexible-plan .price .dropdown-menu .dropdown-item .offer-price .offer .dot {
   border-bottom: 14px solid transparent;
   border-left: 10px solid #fff;
   border-top: 14px solid transparent;
-  position: relative;
-  margin-right: 0px;
-  left: -90px !important;
+  position: absolute;
+  left: -1px !important;
+  bottom: 2px !important;
 }
 #flexible-plan .price .show {
   display: block;
@@ -318,12 +341,13 @@ web-hosting nd
   float: left;
 }
 #flexible-plan .price .nav-link .offer-price h4 {
-  color: #2e2e2e !important;
-  font-size: 15px !important;
-  font-weight: 500;
+  color: #646464 !important;
+  font-size: 16px !important;
+  font-weight: 400;
   margin: 0 auto;
   padding-bottom: 10px !important;
   float: left;
+  font-family: var(--ff1);
 }
 #flexible-plan .price .nav-link .offer-price p {
   color: #2e2e2e !important;
@@ -335,31 +359,45 @@ web-hosting nd
   float: left;
 }
 #flexible-plan .price .nav-link .offer-price .offer {
-  width: 100px;
-  height: 30px;
-  background-color: #ff1d1d;
+  position: relative;
+  background-color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 #flexible-plan .price .nav-link .offer-price .offer h4 {
   color: #ffffff !important;
+  align-items: center;
+  padding: 7px 15px;
   font-size: 13px !important;
   font-weight: 600;
   margin: 0 auto;
   padding-bottom: 10px !important;
   font-family: var(--ff1);
   text-align: center !important;
-  margin-left: 22px;
+  margin-left: 47px;
+  margin-top: 0px;
+  width: 100px;
+  height: 30px;
+  background-color: #ee3838;
+  position: relative;
+}
+#flexible-plan .price .nav-link .offer-price .offer small {
+  color: #555555a4 !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-bottom: 10px !important;
+  font-family: var(--ff1);
+  text-align: center !important;
+  margin-left: 0px;
   margin-top: 10px;
 }
 #flexible-plan .price .nav-link .offer-price .offer .dot {
   border-bottom: 14px solid transparent;
   border-left: 10px solid #fff;
   border-top: 14px solid transparent;
-  position: relative;
-  margin-right: 0px;
-  left: -90px !important;
+  position: absolute;
+  left: -1px !important;
+  bottom: 2px !important;
 }
 #flexible-plan .pricing-btn {
   align-items: center;
@@ -372,7 +410,6 @@ web-hosting nd
   flex-direction: column;
   justify-content: start;
   border: 1px solid rgba(255, 0, 0, 0.452);
-  padding: 10px 30px;
   border-radius: 7px;
 }
 .offer-price h2 {
@@ -402,7 +439,7 @@ web-hosting nd
   float: left;
 }
 .offer-price .offer {
-  width: 100px;
+  width: 255px;
   height: 30px;
   background-color: #ff1d1d;
   display: flex;
@@ -417,7 +454,7 @@ web-hosting nd
   padding-bottom: 10px !important;
   font-family: var(--ff1);
   text-align: center !important;
-  margin-left: 22px;
+  margin-left: 0px;
   margin-top: 10px;
 }
 .offer-price .offer .dot {
@@ -760,8 +797,9 @@ ul {
 variable css start
 ==============*/
 :root {
-  --ff1: 'Open Sans', sans-serif;
+  --ff1: 'Rubik', sans-serif;
   --ff2: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -883,6 +921,22 @@ variable css start
   padding: 3px 6px;
   border-radius: 3px;
 }
+#header-top-bar .container .list-item .list-inline-item .btn-group .show {
+  display: block;
+  margin-top: 0px !important;
+  transition: 0.4s !important;
+}
+#header-top-bar .container .list-item .list-inline-item .btn-group .dropdown-menu {
+  min-width: 5rem;
+}
+#header-top-bar .container .list-item .list-inline-item .btn-group .dropdown-menu .btn {
+  color: black;
+}
+#header-top-bar .container .list-item .list-inline-item .btn-group .btn {
+  display: flex;
+  align-items: center;
+  color: white;
+}
 
 /*==========
   #header-top-bar END
@@ -898,8 +952,6 @@ variable css start
   position: fixed;
   top: -20px;
   z-index: 9999999999999;
-  height: 80px;
-  margin-top: 20px;
   align-items: center;
 }
 
@@ -923,11 +975,19 @@ variable css start
   transition: 0.4s !important;
 }
 
+#menu .navbar .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0.3125rem;
+  margin-right: 9rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
 #menu .navbar .navbar-brand img {
   width: 200px !important;
 }
 #menu .navbar .collapse .navbar-nav li {
-  line-height: 4;
+  line-height: 3;
   position: relative;
 }
 #menu .navbar .collapse .navbar-nav li:hover .dropdown-it {
@@ -974,6 +1034,11 @@ variable css start
   border-radius: 80px;
   padding-left: 10px;
 }
+#menu .navbar .collapse .navbar-nav li .dropdown-it ul li .img i {
+  font-size: 20px;
+  padding: 15px;
+  color: #000;
+}
 #menu .navbar .collapse .navbar-nav li .dropdown-it ul li .function {
   padding-bottom: 10px;
 }
@@ -998,7 +1063,7 @@ variable css start
 }
 #menu .navbar .collapse .navbar-nav li .dropdown-it ul li:hover {
   background-color: rgba(173, 173, 173, 0.247) !important;
-  color: rgba(255, 255, 255, 0.986);
+  color: rgba(0, 0, 0, 0.986);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #menu .navbar .collapse .navbar-nav li .dropdown-it ul li a {
@@ -1034,7 +1099,7 @@ variable css start
   font-size: 16px;
   color: black;
   font-family: var(--ff1);
-  font-weight: 400;
+  font-weight: 500;
   transition: 0.4s;
   margin-left: 10px;
 }
@@ -1042,8 +1107,9 @@ variable css start
   color: var(--brand);
 }
 #menu .navbar .collapse .navbar-nav li .item {
-  width: 120px;
-  height: 40px;
+  margin-left: 50px !important;
+  width: 80px;
+  height: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 20px;
   margin-left: 5px;
@@ -1052,7 +1118,7 @@ variable css start
   color: white;
   transition: 0.6s;
   padding: 0px 5px;
-  font-size: 13px;
+  font-size: 12px;
   font-family: var(--ff1);
   display: flex;
   align-items: center;
@@ -1492,6 +1558,63 @@ testimonial start
 /*==========
 footer start
 ==============*/
+.footer-end .footer-img {
+  margin-left: 0px;
+  width: 70%;
+}
+.footer-end small {
+  font-size: 10px;
+  color: rgba(199, 199, 199, 0.809);
+  font-family: var(--ff1);
+}
+
+.footer-1 .moson h4 {
+  font-size: 12px !important;
+  margin-bottom: 30px;
+  font-family: var(--ff1);
+  font-weight: 500 !important;
+}
+.footer-1 .moson h4 i {
+  font-size: 19px !important;
+  color: #ebb7b7 !important;
+}
+.footer-1 .moson ul li {
+  margin-bottom: 3px;
+}
+.footer-1 .moson ul li i {
+  color: #fc5151;
+  font-size: 20px !important;
+}
+.footer-1 .moson ul li a {
+  font-family: var(--ff1);
+  color: rgba(210, 210, 210, 0.797) !important;
+  font-size: 13px !important;
+}
+
+.footer-1 .item .moson1 h4 {
+  font-size: 24px !important;
+  margin-bottom: 30px;
+  font-family: var(--ff1);
+  font-weight: 500 !important;
+}
+.footer-1 .item .moson1 h4 i {
+  font-size: 19px !important;
+  color: #bcb7eb !important;
+}
+.footer-1 .item .moson1 ul li {
+  margin-bottom: 3px;
+}
+.footer-1 .item .moson1 ul li i {
+  color: #fc5151;
+  font-size: 10px !important;
+  margin-right: 5px;
+}
+.footer-1 .item .moson1 ul li a {
+  font-family: var(--ff1);
+  color: rgba(210, 210, 210, 0.797) !important;
+  font-size: 13px !important;
+}
+
 .footer-1 .container-fluid {
   height: 60px;
   background-color: var(--brand);
@@ -1500,15 +1623,16 @@ footer start
 }
 
 .footer-1 .container p {
-  color: white;
-  font-size: 15px !important;
+  color: #f2f1f1 !important;
+  font-size: 13px !important;
   font-weight: 400;
   font-family: var(--ff1);
   margin-bottom: 10px;
+  padding: 2px 5px;
   line-height: 2;
 }
 .footer-1 .container .item h4 {
-  font-size: 21px !important;
+  font-size: 30px;
   font-family: var(--ff1);
   font-weight: 600;
 }
@@ -1571,7 +1695,7 @@ footer start
   width: 100%;
   padding-top: 30px;
   padding-bottom: 27px;
-  background: #383838;
+  background: #000000;
   color: white;
 }
 
@@ -1604,7 +1728,7 @@ footer start
   text-align: center;
 }
 .footer-1 .social-list-default li:hover {
-  background-color: red;
+  background-color: #f2e5e5;
 }
 .footer-1 .social-list-default li a {
   height: 40px;
@@ -1633,11 +1757,11 @@ extra css=======================================================================
   background-color: transparent;
   color: #343434;
   font-size: 1.5rem !important;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   letter-spacing: normal !important;
   line-height: normal;
   text-transform: uppercase;
-  font-family: fantasy;
+  font-family: var(--ff1);
   text-align: center;
 }
 

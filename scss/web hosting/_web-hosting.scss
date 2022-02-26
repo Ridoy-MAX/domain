@@ -211,18 +211,17 @@ web-hosting nd
 /*==========
  Our flexibile plan  start
 ==============*/ 
-.pricing-plan h3 {
-	background-color: transparent;
-    color: #343434;
-    font-size: 1.4rem !important;
-    font-weight: 800 !important;
-    letter-spacing: normal !important;
-    line-height: normal;
-    text-transform: uppercase;
-    // font-family: var(--ff1);
-    font-family: fantasy;
-    text-align: center;
+.border-bottom{
+    border-bottom: 0px !important;
+
 }
+
+#flexible-plan .price .show {
+	display: block;
+	margin-top: -32px !important;
+	transition: 0.4s !important;
+}
+
 .pricing-plan p {
     color: #777;
     display: block;
@@ -241,8 +240,14 @@ web-hosting nd
     font-weight: 600;
     margin: 0 auto;
     padding-bottom: 10px !important;
-    text-align: center;
-    
+    margin-left: 10px;
+    padding: 9px 33px !important;
+    border-bottom:1px solid rgba(136, 133, 133, 0.227) ;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover{
+        background-color: rgba(237, 234, 233, 0.556);
+    }
     span{
         font-weight: 700;
     }
@@ -281,7 +286,11 @@ web-hosting nd
                 justify-content: start;
                 border: 1px solid rgba(255, 0, 0, 0.452);
                 padding: 10px 30px;
-                border-radius: 0px;
+                border-radius: 2px;
+                transition: 0.5s;
+                &:hover{
+                    background-color: rgba(247, 244, 245, 0.755);
+                }
                 h2{
                     color: #2e2e2e !important;
                   
@@ -294,14 +303,15 @@ web-hosting nd
                     float: left;
                 }
                 h4{
-                    color: #2e2e2e !important;
+                    color: #646464 !important;
                    
-                    font-size: 15px !important;
-                    font-weight: 500;
+                    font-size: 16px !important;
+                    font-weight: 400;
                     margin: 0 auto;
                     padding-bottom: 10px !important;
                 //   margin-left: -150px !important;
                     float: left;
+                    font-family: var(--ff1);
                 }
                 p{
                     color: #2e2e2e !important;
@@ -315,15 +325,30 @@ web-hosting nd
                     float: left;
                 }
                 .offer{
-                    width: 100px;
-                    height: 30px;
-                    background-color: rgb(255, 29, 29);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: auto;
+                  position: relative;
+                    background-color: rgb(255, 255, 255);
+                    
+                  display: flex;
+               
                     h4{
                         color: #ffffff !important;
+                       align-items: center;
+                       padding: 7px 15px;
+                        font-size: 13px !important;
+                        font-weight: 600;
+                        margin: 0 auto;
+                        padding-bottom: 10px !important;
+                       font-family: var(--ff1);
+                       text-align: center !important;
+                       margin-left: 47px;
+                       margin-top: 0px;
+                       width: 100px;
+                       height: 30px;
+                       background-color: rgb(238, 56, 56);
+                       position: relative;
+                    }
+                    small{
+                        color: #555555a4 !important;
                        
                         font-size: 13px !important;
                         font-weight: 600;
@@ -331,17 +356,19 @@ web-hosting nd
                         padding-bottom: 10px !important;
                        font-family: var(--ff1);
                        text-align: center !important;
-                       margin-left: 22px;
+                       margin-left: 0px;
                        margin-top: 10px;
-                        
                     }
                     .dot{
                         border-bottom: 14px solid transparent;
                         border-left: 10px solid #fff;
                         border-top: 14px solid transparent;
-                        position: relative;
-                        margin-right: 0px;
-                        left: -90px !important;
+                        position: absolute;
+                        left: -1px !important;
+                        bottom: 2px !important;
+                      
+                     
+                     
                     }
                 }
             }
@@ -373,14 +400,15 @@ web-hosting nd
                     float: left;
                 }
                 h4{
-                    color: #2e2e2e !important;
+                    color: #646464 !important;
                    
-                    font-size: 15px !important;
-                    font-weight: 500;
+                    font-size: 16px !important;
+                    font-weight: 400;
                     margin: 0 auto;
                     padding-bottom: 10px !important;
                 //   margin-left: -150px !important;
                     float: left;
+                    font-family: var(--ff1);
                 }
                 p{
                     color: #2e2e2e !important;
@@ -394,14 +422,30 @@ web-hosting nd
                     float: left;
                 }
                 .offer{
-                    width: 100px;
-                    height: 30px;
-                    background-color: rgb(255, 29, 29);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                  position: relative;
+                    background-color: rgb(255, 255, 255);
+                    
+                  display: flex;
+               
                     h4{
                         color: #ffffff !important;
+                       align-items: center;
+                       padding: 7px 15px;
+                        font-size: 13px !important;
+                        font-weight: 600;
+                        margin: 0 auto;
+                        padding-bottom: 10px !important;
+                       font-family: var(--ff1);
+                       text-align: center !important;
+                       margin-left: 47px;
+                       margin-top: 0px;
+                       width: 100px;
+                       height: 30px;
+                       background-color: rgb(238, 56, 56);
+                       position: relative;
+                    }
+                    small{
+                        color: #555555a4 !important;
                        
                         font-size: 13px !important;
                         font-weight: 600;
@@ -409,17 +453,19 @@ web-hosting nd
                         padding-bottom: 10px !important;
                        font-family: var(--ff1);
                        text-align: center !important;
-                       margin-left: 22px;
+                       margin-left: 0px;
                        margin-top: 10px;
-                        
                     }
                     .dot{
                         border-bottom: 14px solid transparent;
                         border-left: 10px solid #fff;
                         border-top: 14px solid transparent;
-                        position: relative;
-                        margin-right: 0px;
-                        left: -90px !important;
+                        position: absolute;
+                        left: -1px !important;
+                        bottom: 2px !important;
+                      
+                     
+                     
                     }
                 }
             }
@@ -438,7 +484,7 @@ web-hosting nd
     flex-direction: column;
     justify-content: start;
     border: 1px solid rgba(255, 0, 0, 0.452);
-    padding: 10px 30px;
+    // padding: 10px 30px;
     border-radius: 7px;
     h2{
         color: #2e2e2e !important;
@@ -473,7 +519,7 @@ web-hosting nd
         float: left;
     }
     .offer{
-        width: 100px;
+        width: 255px;
         height: 30px;
         background-color: rgb(255, 29, 29);
         display: flex;
@@ -488,7 +534,7 @@ web-hosting nd
             padding-bottom: 10px !important;
            font-family: var(--ff1);
            text-align: center !important;
-           margin-left: 22px;
+           margin-left: 0px;
            margin-top: 10px;
             
         }
