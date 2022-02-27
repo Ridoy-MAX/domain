@@ -963,6 +963,138 @@ Our flexibile plan
 /*==========
 Our flexibile plan  end
   ==============*/
+
+
+
+
+
+
+
+/*==========
+customer  rating=
+  ==============*/
+
+
+
+#customer-rating{
+    margin-top: 150px;
+    .container{
+        .heading{
+            margin-bottom: 30px;
+            text-align: center;
+          h2{
+            font-family: var(--ff1);
+            font-weight: 600;
+            line-height: 1.25;
+            color: #1a202c;
+            font-size: 32px;
+          }
+          h4{
+            font-family: var(--ff1);
+            font-weight: 600;
+            line-height: 1.25;
+            color: #1a202c8a;
+            font-size: 18px;
+          }
+        }
+        .rating{
+            .box{
+                box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+                margin-bottom: 60px;
+                padding: 30px;
+                transition: 0.4s;
+                cursor: pointer;
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+                .rate{
+                    display: flex;
+                    align-items: center;
+
+                  h2{
+                    font-family: var(--ff1);
+                    font-weight: 600;
+                    line-height: 1.25;
+                    color: #1a202c;
+                    font-size: 28px;
+                    border-right: 1px solid rgba(0, 0, 0, 0.261);
+                    padding-right: 35px;
+                    span{
+                        font-family: var(--ff1);
+                        font-weight: 500;
+                        line-height: 1.25;
+                        color: #1a202c8a;
+                        font-size: 20px;
+                        
+                    }
+ 
+                  }
+                }
+                .review{
+                    padding-left: 15px;
+                    .img{
+
+                    }
+                    .rating-one{
+                        margin-left: 25px;
+                        a{
+                            color: rgba(248, 55, 55, 0.802);
+                            font-size: 18px;
+                            i{
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========
+customer  rating end
+  ==============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*==========
 testimonial start
 ==============*/  
@@ -1066,10 +1198,23 @@ testimonial start
 footer start
 ==============*/  
 .footer-end {
+    .award{
+        h3{
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(204, 204, 204);
+            font-family: var(--ff1);
+
+        }
+        img{
+            margin-left: 8px;
+        }
+    }
     .footer-img{
 
         margin-left: 0px;
         width: 70%;
+        margin-top: 18px;
         
         }
         small{

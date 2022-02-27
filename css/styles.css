@@ -1492,6 +1492,77 @@ Our flexibile plan
 Our flexibile plan  end
   ==============*/
 /*==========
+customer  rating=
+  ==============*/
+#customer-rating {
+  margin-top: 150px;
+}
+#customer-rating .container .heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+#customer-rating .container .heading h2 {
+  font-family: var(--ff1);
+  font-weight: 600;
+  line-height: 1.25;
+  color: #1a202c;
+  font-size: 32px;
+}
+#customer-rating .container .heading h4 {
+  font-family: var(--ff1);
+  font-weight: 600;
+  line-height: 1.25;
+  color: #1a202c8a;
+  font-size: 18px;
+}
+#customer-rating .container .rating .box {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-bottom: 60px;
+  padding: 30px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#customer-rating .container .rating .box:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#customer-rating .container .rating .box .rate {
+  display: flex;
+  align-items: center;
+}
+#customer-rating .container .rating .box .rate h2 {
+  font-family: var(--ff1);
+  font-weight: 600;
+  line-height: 1.25;
+  color: #1a202c;
+  font-size: 28px;
+  border-right: 1px solid rgba(0, 0, 0, 0.261);
+  padding-right: 35px;
+}
+#customer-rating .container .rating .box .rate h2 span {
+  font-family: var(--ff1);
+  font-weight: 500;
+  line-height: 1.25;
+  color: #1a202c8a;
+  font-size: 20px;
+}
+#customer-rating .container .rating .box .review {
+  padding-left: 15px;
+}
+#customer-rating .container .rating .box .review .rating-one {
+  margin-left: 25px;
+}
+#customer-rating .container .rating .box .review .rating-one a {
+  color: rgba(248, 55, 55, 0.802);
+  font-size: 18px;
+}
+#customer-rating .container .rating .box .review .rating-one a i {
+  font-size: 14px !important;
+}
+
+/*==========
+customer  rating end
+  ==============*/
+/*==========
 testimonial start
 ==============*/
 #client {
@@ -1558,9 +1629,19 @@ testimonial start
 /*==========
 footer start
 ==============*/
+.footer-end .award h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #cccccc;
+  font-family: var(--ff1);
+}
+.footer-end .award img {
+  margin-left: 8px;
+}
 .footer-end .footer-img {
   margin-left: 0px;
   width: 70%;
+  margin-top: 18px;
 }
 .footer-end small {
   font-size: 10px;
