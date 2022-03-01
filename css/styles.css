@@ -945,12 +945,30 @@ variable css start
  menu
 ==============*/
 /* Please ❤ this if you like it! */
+#menu .navbar .collapse .navbar-nav li {
+  line-height: 3;
+  position: relative;
+  transition: 0.4s;
+}
+#menu .navbar .collapse .navbar-nav li:hover {
+  background-color: #e2e2e2;
+}
+
+#menu .navbar .collapse .navbar-nav .hov {
+  line-height: 3;
+  position: relative;
+  transition: 0.4s;
+}
+#menu .navbar .collapse .navbar-nav .hov:hover {
+  background-color: white;
+}
+
 .scroll-header {
   background-color: white;
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
   width: 100%;
   position: fixed;
-  top: -20px;
+  top: 0px;
   z-index: 9999999999999;
   align-items: center;
 }
@@ -1143,16 +1161,23 @@ variable css start
  ==============*/
 .text-1 {
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 18px;
   font-family: var(--ff1);
   color: rgba(255, 255, 255, 0.801);
-  font-weight: 500;
+  font-weight: 700;
+  justify-content: center;
 }
-.text-1 span {
-  font-size: 15px;
+.text-1 p {
+  border: 1px solid rgba(194, 177, 177, 0.275);
+  margin: 4px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.text-1 p span {
+  font-size: 14px;
   font-family: var(--ff1);
   color: rgba(218, 40, 40, 0.911);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .wrapper {
@@ -1380,6 +1405,9 @@ input.search-submit {
  /*==========
  we-special
 ==============*/
+#we-special {
+  margin-top: 150px;
+}
 #we-special .container .heading h1 {
   margin-bottom: 0.977rem;
   font-family: "Roboto", sans-serif;
@@ -1563,6 +1591,77 @@ customer  rating=
 customer  rating end
   ==============*/
 /*==========
+server acution
+  ==============*/
+#server-acution .container-fluid .curv {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 50px;
+  position: relative;
+  bottom: 0;
+  margin: auto !important;
+  display: flex;
+  top: -28px;
+}
+
+#server-acution .container-fluid .curv .left {
+  border-top: 27px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-right: 29px solid white;
+}
+
+#server-acution .container-fluid .curv .middle {
+  height: 50px;
+  left: 2%;
+  width: 96%;
+  background-color: white;
+}
+
+#server-acution .container-fluid .curv .right {
+  border-top: 27px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 29px solid white;
+}
+
+#server-acution {
+  margin-bottom: 150px;
+  margin-top: 120px;
+  background-color: #D50C2D;
+}
+#server-acution .details {
+  height: 400px;
+}
+#server-acution .curv-one {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 50px;
+  position: relative;
+  bottom: 0;
+  margin: auto !important;
+  display: flex;
+  top: 28px;
+}
+#server-acution .curv-one .left {
+  border-top: 27px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-right: 29px solid white;
+}
+#server-acution .curv-one .middle {
+  height: 50px;
+  left: 2%;
+  width: 96%;
+  background-color: white;
+}
+#server-acution .curv-one .right {
+  border-top: 27px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 29px solid white;
+}
+
+/*==========
+server acution end
+  ==============*/
+/*==========
 testimonial start
 ==============*/
 #client {
@@ -1680,7 +1779,7 @@ footer start
 }
 .footer-1 .item .moson1 h4 i {
   font-size: 19px !important;
-  color: #bcb7eb !important;
+  color: rgba(255, 11, 11, 0.919) !important;
 }
 .footer-1 .item .moson1 ul li {
   margin-bottom: 3px;
@@ -1823,6 +1922,27 @@ footer start
 
 /*==========
 footer end
+==============*/
+/*==========
+domain page css
+==============*/
+.domain-one {
+  position: relative;
+  top: -180px;
+  margin-bottom: -200px !important;
+}
+
+#domen-name {
+  margin-bottom: -50px;
+}
+
+.domain-banner .conta {
+  padding: 3rem;
+  width: 728px;
+}
+
+/*==========
+domain page css
 ==============*/
 /*==========
 extra css=========================================================================================================

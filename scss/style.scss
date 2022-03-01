@@ -279,7 +279,25 @@ background-color: rgba(224, 36, 36, 0.849);
 
 
 
+#menu .navbar .collapse .navbar-nav li {
+	line-height: 3;
+	position: relative;
+    transition: 0.4s;
+    &:hover{
+        background-color: rgb(226, 226, 226);
+       
+    }
+}
 
+#menu .navbar .collapse .navbar-nav .hov {
+	line-height: 3;
+	position: relative;
+    transition: 0.4s;
+    &:hover{
+        background-color: rgb(255, 255, 255);
+       
+    }
+}
 
 
 
@@ -294,7 +312,7 @@ background-color: rgba(224, 36, 36, 0.849);
      box-shadow: 0 0 4px rgba(14, 55, 63, 0.15); 
     width: 100%;
     position: fixed;
-    top: -20px;
+    top: 0px;
     z-index: 9999999999999;
    
    
@@ -569,16 +587,24 @@ background-color: rgba(224, 36, 36, 0.849);
 
 .text-1{
     margin-top: 8px;
-    font-size: 13px;
+    font-size: 18px;
     font-family: var(--ff1);
     color: rgba(255, 255, 255, 0.801);
-    font-weight: 500;
+    font-weight: 700;
+    justify-content: center;
+   
+   p{
+       border: 1px solid rgba(194, 177, 177, 0.275);
+       margin: 4px;
+       padding: 5px;
+       border-radius: 5px;
     span{
-        font-size: 15px;
+        font-size: 14px;
     font-family: var(--ff1);
     color: rgba(218, 40, 40, 0.911);
-    font-weight: 500;
+    font-weight: 700;
     }
+   }
 }
 .wrapper {
     display: flex;
@@ -837,6 +863,7 @@ background-color: rgba(224, 36, 36, 0.849);
    we-special
   ==============*/
 #we-special{
+    margin-top: 150px;
     .container{
         .heading{
             h1{
@@ -1070,6 +1097,9 @@ customer  rating end
 
 
 
+/*==========
+server acution
+  ==============*/
 
 
 
@@ -1078,6 +1108,69 @@ customer  rating end
 
 
 
+  #server-acution .container-fluid  .curv{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    margin: auto !important;
+    display: flex;
+    top: -28px;
+
+  }
+  #server-acution .container-fluid  .curv .left{
+    border-top: 27px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-right: 29px solid rgb(255, 255, 255);
+  }
+  #server-acution .container-fluid  .curv .middle{
+    height: 50px;
+    left: 2%;
+    width: 96%;
+    background-color: rgb(255, 255, 255);
+  }
+  #server-acution .container-fluid  .curv .right{
+    border-top: 27px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 29px solid rgb(255, 255, 255);
+  }
+
+  #server-acution {
+      margin-bottom: 150px;
+      margin-top: 120px;
+    background-color: #D50C2D;
+      .details{
+        height: 400px;
+       
+      }
+      .curv-one{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        height: 50px;
+        position: relative;
+        bottom: 0;
+        margin: auto !important;
+        display: flex;
+        top: 28px;
+          .left{
+            border-top: 27px solid transparent;
+            border-bottom: 24px solid transparent;
+            border-right: 29px solid rgb(255, 255, 255);
+          }
+          .middle{
+            height: 50px;
+            left: 2%;
+            width: 96%;
+            background-color: rgb(255, 255, 255)
+          }
+          .right{
+            border-top: 27px solid transparent;
+            border-bottom: 24px solid transparent;
+            border-left: 29px solid rgb(255, 255, 255);
+          }
+      }
+  }
 
 
 
@@ -1085,7 +1178,9 @@ customer  rating end
 
 
 
-
+/*==========
+server acution end
+  ==============*/
 
 
 
@@ -1285,7 +1380,7 @@ footer start
         font-weight: 500 !important;
         i{
             font-size: 19px !important;
-            color: rgb(188, 183, 235) !important;
+            color: rgba(255, 11, 11, 0.919) !important;
         }
    }
 
@@ -1437,6 +1532,74 @@ footer start
 /*==========
 footer end
 ==============*/  
+
+
+
+
+
+
+/*==========
+domain page css
+==============*/  
+
+.domain-one{
+    position: relative;
+    top: -180px;
+    margin-bottom: -200px !important;
+}
+#domen-name {
+	margin-bottom: -50px;
+}
+
+
+
+.domain-banner .conta {
+	padding: 3rem;
+	width: 728px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========
+domain page css
+==============*/  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*==========
 extra css=========================================================================================================
 ==============*/  
