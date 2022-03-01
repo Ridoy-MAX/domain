@@ -4,6 +4,7 @@
 @import 'VPS/USA-VPS.scss';
 @import 'reseller-hosting-usa/reseller-hosting.scss';
 @import 'responsive/responsive.scss';
+@import 'affiliate/affilite.scss';
 * {
     padding: 0;
     margin: 0;
@@ -1004,7 +1005,8 @@ customer  rating=
 
 
 #customer-rating{
-    margin-top: 150px;
+    background-color: #F5F5FA;
+   padding-top: 150px;
     .container{
         .heading{
             margin-bottom: 30px;
@@ -1139,7 +1141,8 @@ server acution
   #server-acution {
       margin-bottom: 150px;
       margin-top: 120px;
-    background-color: #D50C2D;
+      background: rgb(180,58,114);
+      background: linear-gradient(90deg, rgba(180,58,114,1) 0%, rgba(253,29,29,1) 50%, rgba(252,142,69,1) 100%);
       .details{
         height: 400px;
        
