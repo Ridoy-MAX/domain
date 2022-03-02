@@ -998,6 +998,119 @@ Our flexibile plan  end
 
 
 
+
+
+
+
+/*==========
+slider one
+  ==============*/
+
+#client1{
+    background-color: #D2F1FF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .banner-slider2{
+        .item{
+            .details1{
+                img{
+                  width: 200px;
+                 margin-left: 30px !important;
+                }
+                h2{
+                    font-size: 34px;
+                    font-weight: 700;
+                    line-height: 1.4;
+                    color: rgb(43, 43, 43);
+                    font-family: var(--ff1);
+                    margin-top: 40px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.4;
+                    color: rgb(79, 79, 79);
+                    font-family: var(--ff1);
+                }
+            }
+            .details2{
+                img{
+                    width: 80px;
+                   margin-left: 40px !important;
+                   margin-bottom: 20px;
+                  }
+                
+                h1{
+                    font-size: 34px !important;
+                    font-weight: 700;
+                    line-height: 1.4;
+                    color: rgb(43, 43, 43);
+                    font-size: var(--ff1);
+                    margin-top: 40px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.4;
+                    color: rgb(79, 79, 79);
+                    font-family: var(--ff1);
+                    padding: 20px 0px !important;
+                    padding-right: 60px !important;
+                   
+                }
+            }
+        }
+    }
+}
+
+
+
+#client1 .slick-dots{
+    display: flex !important;
+    justify-content: center;
+}
+#client1 .slick-dots li {
+	width: 15px;
+	height: 15px;
+	background: #94c9e4;
+	border-radius: 10px;
+	margin: 0 2px;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+    
+  
+    font-size: 0px !important;
+    button{
+        display: none;
+    }
+    
+}
+#client1 .slick-dots li.slick-active {
+	background: #1889c1;
+	cursor: default;
+	width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*==========
+slider one
+  ==============*/
+
+
+
+
+
+
+
 /*==========
 customer  rating=
   ==============*/

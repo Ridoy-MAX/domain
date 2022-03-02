@@ -81,10 +81,10 @@ $('.banner-slider1').slick({
 // 9. client-testimonial one item carousel
 
 $('.banner-slider2').slick({
-  slidesToShow: 2,
+  slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  dots:false,
+  dots:true,
   arrows:false,
   autoplaySpeed: 2000,
   nextArrow:'<i class="fas fa-chevron-left  next-arrow"></i>',
